@@ -43,6 +43,8 @@ LOCAL_SHARED_LIBRARIES := \
         libstagefright \
         libdrmframework \
 
+LOCAL_STATIC_LIBRARIES := libstagefright_rtsp
+
 LOCAL_LDFLAGS += \
 	$(CEDARX_TOP)/../CedarAndroidLib/LIB_$(CEDARX_ANDROID_CODE)_$(CEDARX_CHIP_VERSION)/libcedarxplayer.a \
 	$(CEDARX_TOP)/../CedarAndroidLib/LIB_$(CEDARX_ANDROID_CODE)_$(CEDARX_CHIP_VERSION)/libcedarxcomponents.a \
